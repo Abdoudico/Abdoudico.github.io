@@ -343,7 +343,7 @@ section {
     margin-bottom: 2.3rem;
 }
 
-.experience-details-containers {
+.experience-details-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -380,3 +380,25 @@ article .icon {
 .title-expert {
     margin-bottom: 10rem;
 }
+
+
+#projects {
+    position: relative;
+}
+
+.color-container {
+    border-color: rgb(39, 43, 42);
+    background: #d8edff;
+}
+
+.project-img {
+    border-radius: 1.5rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: rgb(39, 43, 42);
+}
+
