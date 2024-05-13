@@ -270,3 +270,59 @@ section {
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#3b87c7 0 -3px 0 inset;
     color: #ffffff;
 }
+
+.details-container a {
+    text-decoration: none;
+}
+
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, .about-details-container {
+    display: flex;
+
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 2.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(94, 181, 255) 0.1rem solid;
+    text-align: center;
+}
+
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.text-container {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: justify;
+}
