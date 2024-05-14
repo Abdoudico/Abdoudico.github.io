@@ -47,6 +47,23 @@
         text-align: left;
     }
 
+    .contact-icon {
+        height: 1.5rem;
+    }
+    .email-icon {
+        height: 2rem;
+    }
+
+    .contact-info-upper-container {
+        border-color: white;
+        background: white;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .title-expert {
+       margin-bottom: 5rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
